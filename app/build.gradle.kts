@@ -38,7 +38,7 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.14"
+        kotlinCompilerExtensionVersion = "1.5.3"
     }
     packagingOptions {
         resources {
@@ -49,17 +49,16 @@ android {
 
 dependencies {
     // Core Android
-    val core_ktx_version = "1.13.1"
-    val activity_compose_version = "1.9.2"
-    val lifecycle_version = "2.8.3"
+    val core_ktx_version = "1.12.0"
+    val activity_compose_version = "1.8.2"
+    val lifecycle_version = "2.7.0"
     val room_version = "2.6.1"
-    val navigation_version = "2.7.7"
-    val material3_version = "1.3.1"
-    val compose_bom_version = "2024.06.00"
-    val kotlinx_datetime_version = "0.6.0"
+    val navigation_version = "2.7.6"
+    val compose_bom_version = "2024.05.00"
+    val kotlinx_datetime_version = "0.5.0"
     val kotlinx_serialization_json_version = "1.5.1"
-    val hilt_version = "2.50"
-    val coil_version = "2.6.0"
+    val hilt_version = "2.48"
+    val coil_version = "2.5.0"
     val mpandroidchart_version = "3.1.0"
 
     // Core
@@ -90,11 +89,11 @@ dependencies {
     // Hilt Dependency Injection
     implementation("com.google.dagger:hilt-android:$hilt_version")
     ksp("com.google.dagger:hilt-compiler:$hilt_version")
-    implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
+    implementation("androidx.hilt:hilt-navigation-compose:1.1.0")
 
     // Coroutines & Flow
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
 
     // Serialization
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:$kotlinx_serialization_json_version")
@@ -110,8 +109,8 @@ dependencies {
 
     // Testing
     testImplementation("junit:junit:4.13.2")
-    androidTestImplementation("androidx.test.ext:junit:1.2.1")
-    androidTestImplementation("androidx.test.espresso:espresso-core:3.6.1")
+    androidTestImplementation("androidx.test.ext:junit:1.1.5")
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
