@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors - Green theme for protein/health -->
+    <color name="primary">#2E7D32</color>
+    <color name="primary_variant">#1B5E20</color>
+    <color name="primary_light">#4CAF50</color>
+    <color name="primary_container">#E8F5E9</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_primary_container">#1B5E20</color>
+
+    <!-- Secondary Colors -->
+    <color name="secondary">#F57F17</color>
+    <color name="secondary_variant">#FF6F00</color>
+    <color name="secondary_container">#FFF8E1</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="on_secondary_container">#F57F17</color>
+
+    <!-- Tertiary -->
+    <color name="tertiary">#0D47A1</color>
+    <color name="tertiary_container">#E3F2FD</color>
+    <color name="on_tertiary">#FFFFFF</color>
+    <color name="on_tertiary_container">#0D47A1</color>
+
+    <!-- Surface & Background -->
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F5F5F5</color>
+    <color name="surface_container_highest">#EEEEEE</color>
+    <color name="background">#FAFAFA</color>
+    <color name="on_background">#212121</color>
+    <color name="on_surface">#212121</color>
+    <color name="on_surface_variant">#757575</color>
+
+    <!-- Error -->
+    <color name="error">#C62828</color>
+    <color name="error_container">#FBE9E7</color>
+    <color name="on_error">#FFFFFF</color>
+    <color name="on_error_container">#C62828</color>
+
+    <!-- Success -->
+    <color name="success">#2E7D32</color>
+    <color name="success_container">#E8F5E9</color>
+    <color name="on_success">#FFFFFF</color>
+
+    <!-- Warning -->
+    <color name="warning">#F57F17</color>
+    <color name="warning_container">#FFF8E1</color>
+    <color name="on_warning">#FFFFFF</color>
+
+    <!-- Outline -->
+    <color name="outline">#BDBDBD</color>
+    <color name="outline_variant">#E0E0E0</color>
+
+    <!-- Custom for progress rings -->
+    <color name="progress_ring_bg">#E0E0E0</color>
+    <color name="progress_ring_fill">#2E7D32</color>
+    <color name="progress_ring_warning">#F57F17</color>
+    <color name="progress_ring_danger">#C62828</color>
+
+    <!-- Meal type colors -->
+    <color name="meal_breakfast">#FFB74D</color>
+    <color name="meal_lunch">#4FC3F7</color>
+    <color name="meal_dinner">#9575CD</color>
+    <color name="meal_snack">#A5D6A7</color>
+    <color name="meal_workout">#FF8A65</color>
+
+    <!-- Text -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_disabled">#BDBDBD</color>
+    <color name="text_on_primary">#FFFFFF</color>
+</resources>

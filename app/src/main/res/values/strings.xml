@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">ProteinTracker</string>
+    <string name="app_name_short">Protein</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Início</string>
+    <string name="nav_logger">Registrar</string>
+    <string name="nav_recipes">Receitas</string>
+    <string name="nav_progress">Progresso</string>
+    <string name="nav_settings">Configurações</string>
+    
+    <!-- Home Screen -->
+    <string name="home_greeting">Bom dia, %1$s!</string>
+    <string name="home_daily_goal">Meta diária</string>
+    <string name="home_consumed">Consumido</string>
+    <string name="home_remaining">Restante</string>
+    <string name="home_next_meal">Próxima refeição</string>
+    <string name="home_no_meals_today">Nenhuma refeição registrada hoje</string>
+    <string name="home_add_meal">Adicionar refeição</string>
+    <string name="home_quick_add">Adição rápida</string>
+    <string name="home_today_summary">Resumo de hoje</string>
+    <string name="home_weekly_avg">Média semanal</string>
+    
+    <!-- Logger Screen -->
+    <string name="logger_title">Registrar Refeição</string>
+    <string name="logger_meal_type">Tipo de refeição</string>
+    <string name="logger_search_recipes">Buscar receitas</string>
+    <string name="logger_custom_meal">Refeição personalizada</string>
+    <string name="logger_food_name">Nome do alimento</string>
+    <string name="logger_protein_amount">Proteína (g)</string>
+    <string name="logger_calories">Calorias (opcional)</string>
+    <string name="logger_carbs">Carboidratos (g)</string>
+    <string name="logger_fat">Gorduras (g)</string>
+    <string name="logger_save">Salvar</string>
+    <string name="logger_cancel">Cancelar</string>
+    <string name="logger_meal_saved">Refeição salva!</string>
+    
+    <!-- Meal Types -->
+    <string name="meal_breakfast">Café da manhã</string>
+    <string name="meal_morning_snack">Lanche manhã</string>
+    <string name="meal_lunch">Almoço</string>
+    <string name="meal_pre_workout">Pré-treino</string>
+    <string name="meal_post_workout">Pós-treino</string>
+    <string name="meal_dinner">Jantar</string>
+    <string name="meal_evening_snack">Ceia</string>
+    
+    <!-- Recipes Screen -->
+    <string name="recipes_title">Receitas</string>
+    <string name="recipes_search_hint">Buscar receitas…</string>
+    <string name="recipes_filter_all">Todas</string>
+    <string name="recipes_filter_savory">Salgadas</string>
+    <string name="recipes_filter_sweet">Doces</string>
+    <string name="recipes_filter_quick">Rápidas (<15min)</string>
+    <string name="recipes_filter_meal_prep">Meal Prep</string>
+    <string name="recipes_protein_per_serving">Proteína por porção</string>
+    <string name="recipes_prep_time">Tempo de preparo</string>
+    <string name="recipes_servings">Porções</string>
+    <string name="recipes_add_to_today">Adicionar ao dia de hoje</string>
+    <string name="recipes_view_details">Ver detalhes</string>
+    <string name="recipes_ingredients">Ingredientes</string>
+    <string name="recipes_instructions">Modo de preparo</string>
+    <string name="recipes_tips">Dica do Chef</string>
+    
+    <!-- Progress Screen -->
+    <string name="progress_title">Progresso</string>
+    <string name="progress_daily">Diário</string>
+    <string name="progress_weekly">Semanal</string>
+    <string name="progress_monthly">Mensal</string>
+    <string name="progress_streak">Sequência</string>
+    <string name="progress_days_on_track">dias na meta</string>
+    <string name="progress_best_streak">Melhor sequência</string>
+    <string name="progress_average_protein">Proteína média</string>
+    <string name="progress_consistency">Consistência</string>
+    
+    <!-- Settings Screen -->
+    <string name="settings_title">Configurações</string>
+    <string name="settings_profile">Perfil</string>
+    <string name="settings_target_weight">Peso alvo (kg)</string>
+    <string name="settings_current_weight">Peso atual (kg)</string>
+    <string name="settings_protein_per_kg">Proteína por kg (g)</string>
+    <string name="settings_daily_target">Meta diária calculada</string>
+    <string name="settings_reminders">Lembretes</string>
+    <string name="settings_meal_reminders">Lembretes de refeição</string>
+    <string name="settings_reminder_times">Horários dos lembretes</string>
+    <string name="settings_notifications">Notificações</string>
+    <string name="settings_data">Dados</string>
+    <string name="settings_export_csv">Exportar CSV</string>
+    <string name="settings_import_csv">Importar CSV</string>
+    <string name="settings_clear_data">Limpar todos os dados</string>
+    <string name="settings_about">Sobre</string>
+    <string name="settings_version">Versão 1.0.0</string>
+    <string name="settings_privacy">Política de privacidade</string>
+    
+    <!-- Units -->
+    <string name="unit_grams">g</string>
+    <string name="unit_kcal">kcal</string>
+    <string name="unit_kg">kg</string>
+    <string name="unit_min">min</string>
+    
+    <!-- Common -->
+    <string name="done">Concluído</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Excluir</string>
+    <string name="confirm_delete">Confirmar exclusão</string>
+    <string name="delete_confirm_msg">Tem certeza que deseja excluir este item?</string>
+    <string name="error_generic">Ocorreu um erro. Tente novamente.</string>
+    <string name="empty_state">Nenhum dado encontrado</string>
+    <string name="loading">Carregando…</string>
+    
+    <!-- Recipe data placeholders -->
+    <string name="recipe_category_savory">Salgada</string>
+    <string name="recipe_category_sweet">Doce</string>
+</resources>
