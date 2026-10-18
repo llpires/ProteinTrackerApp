@@ -58,7 +58,7 @@ dependencies {
     val compose_bom_version = "2024.06.00"
     val kotlinx_datetime_version = "0.6.0"
     val kotlinx_serialization_json_version = "1.6.3"
-    val hilt_version = "2.51.1"
+    val hilt_version = "2.50"
     val coil_version = "2.6.0"
     val mpandroidchart_version = "3.1.0"
 
