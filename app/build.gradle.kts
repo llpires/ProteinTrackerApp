@@ -2,7 +2,7 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("com.google.devtools.ksp")
-    id("kotlinx-serialization")
+    id("org.jetbrains.kotlin.plugin.serialization")
 }
 
 android {
@@ -57,7 +57,7 @@ dependencies {
     val material3_version = "1.3.1"
     val compose_bom_version = "2024.06.00"
     val kotlinx_datetime_version = "0.6.0"
-    val kotlinx_serialization_json_version = "1.6.3"
+    val kotlinx_serialization_json_version = "1.5.1"
     val hilt_version = "2.50"
     val coil_version = "2.6.0"
     val mpandroidchart_version = "3.1.0"
