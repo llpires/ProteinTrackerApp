@@ -5,14 +5,14 @@ on:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
-  workflow_dispatch: # Manual trigger
+  workflow_dispatch:
 
 jobs:
   build:
     name: Build Debug APK
     runs-on: ubuntu-latest
     timeout-minutes: 30
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -31,6 +31,9 @@ jobs:
           ndk-version: r27b
           build-tools-version: 34.0.0
           cmdline-tools-version: latest
+          accept-android-sdk-licenses: true
+          log-accepted-android-sdk-licenses: true
+          packages: platform-tools
 
       - name: Cache Gradle packages
         uses: actions/cache@v4
@@ -65,7 +68,6 @@ jobs:
           path: app/build/outputs/apk/release/app-release-unsigned.apk
           retention-days: 30
 
-  # Optional: Create a release with APK when tag is pushed
   release:
     name: Create Release
     needs: build
