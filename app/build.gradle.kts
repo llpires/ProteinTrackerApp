@@ -104,6 +104,9 @@ dependencies {
     // Image Loading
     implementation("io.coil-kt:coil-compose:$coil_version")
 
+    // Material Components (for XML themes)
+    implementation("com.google.android.material:material:1.12.0")
+
     // Charts
     implementation("com.github.PhilJay:MPAndroidChart:v$mpandroidchart_version")
 
