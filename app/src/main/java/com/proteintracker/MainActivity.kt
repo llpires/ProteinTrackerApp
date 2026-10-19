@@ -134,7 +134,13 @@ fun MainNavHost() {
             tabs.forEach { tab ->
                 CustomNavBarItem(
                     selected = currentTab == tab.index,
-                    onClick = { currentTab = tab.index; navController.navigate(tab.route) { popUpTo(navController.graph.findStartDestination().id) { inclusive = true } launchSingleTop = true } },
+                    onClick = { 
+                        currentTab = tab.index
+                        navController.navigate(tab.route) {
+                            popUpTo(navController.graph.findStartDestination().id) { inclusive = true }
+                            launchSingleTop = true
+                        }
+                    },
                     icon = tab.icon,
                     label = tab.label
                 )
