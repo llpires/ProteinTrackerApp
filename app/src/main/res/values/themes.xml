@@ -26,8 +26,6 @@
         <item name="colorSurface">@color/surface</item>
         <item name="colorSurfaceVariant">@color/surface_variant</item>
         <item name="colorSurfaceContainerHighest">@color/surface_container_highest</item>
-        <item name="colorBackground">@color/background</item>
-        <item name="colorOnBackground">@color/on_background</item>
         <item name="colorOnSurface">@color/on_surface</item>
         <item name="colorOnSurfaceVariant">@color/on_surface_variant</item>
 
